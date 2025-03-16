@@ -1,5 +1,5 @@
 
-<img align="left" width = "75" src="https://cdn.pnggallery.com/wp-content/uploads/blinkit-logo-01.png"/>
+<img align="left" width = "70" src="https://cdn.pnggallery.com/wp-content/uploads/blinkit-logo-01.png"/>
 
 # Blinkit Data Analysis
 
