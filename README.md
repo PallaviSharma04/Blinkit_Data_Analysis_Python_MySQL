@@ -67,7 +67,7 @@ The analysis was conducted through the following steps:
 - Connected Python with MySQL using SQLAlchemy.
 - Loaded the cleaned Pandas DataFrames into MySQL tables for efficient storage and querying.
 
-### 4: Exploratory Data Analysis (EDA)
+### 4: Exploratory Data Analysis (EDA) and Insights
 
 #### 4.1: Sales Insights
 - *The Key Performance Indicators(KPIs) for the business are sumarrized below:*
@@ -107,3 +107,23 @@ The analysis was conducted through the following steps:
 > Yearly sales comparisons reveal that Dairy & Breakfast, Household Care, and Pet Care lead in revenue, while Instant & Frozen Food and Baby Care trail behind. This indicates that while Dairy & Breakfast, Household Care, and Pet Care excel in sales volume and revenue, the product variety within these categories may not be fully aligned with consumer demand.
 
 #### 4.3: Delivery Insights
+- *The distribution of deliveries across various time ranges is as follows:*
+![Del_Time_range](https://github.com/user-attachments/assets/72aa5f20-1459-45e6-8dc4-c782fe9c549f)
+> Most deliveries (51.88%) are completed within 10-20 minutes, indicating a generally efficient system. However, only 12.14% are delivered in under 10 minutes, which is relatively low and presents an opportunity for improvement to enhance the user experience and strengthen market position. Additionally, 24% of deliveries take 20-30 minutes, 8.78% take 30-40 minutes, and 3.22% extend to 40-50 minutes. While most deliveries are relatively quick, optimizing operations to reduce longer delivery times and increase ultra-fast deliveries could further boost efficiency and foster customer loyalty.
+- *Now, let's analyze how average delivery time correlates with the distance traveled:*
+![Del_Time_distance](https://github.com/user-attachments/assets/6eb560c5-2e27-4a27-8260-61806fac702d)
+> The scatter plot reveals no distinct correlation between average delivery time and distance, as the data points are widely dispersed. Most deliveries fall within 3 to 6 minutes, regardless of the distance, suggesting that other factors such as traffic and order preparation time may have a greater impact on delivery times than distance alone.
+- *Delivery Status Overview:*
+![Del_Status](https://github.com/user-attachments/assets/a0710f21-e7ff-4b13-a4ac-22917fab8bc4)
+> Most deliveries (69.40%) are completed on time, demonstrating a dependable delivery system. However, almost one-third of deliveries experience delays, with 20.74% being slightly delayed and 9.86% significantly delayed. The fact that slightly delayed deliveries are twice as common as significantly delayed ones points to minor inefficiencies rather than major delays, suggesting opportunities for improvement in the delivery process.
+
+#### 4.3: Customer Insights
+- *The top customers who have generated the highest revenue include Rayan Krishna, Nidhi Sha, Warda Kohli, and others.*
+- *The top customers based on recency include Jyoti Pau, Abdul Bali, Charita Comar, and others.*
+- *The distribution of customers across each segment is as follows:*
+
+![Customer_Segment](https://github.com/user-attachments/assets/3ae00df8-400f-4870-8559-e14a5f88c816)
+> Customer order distribution is relatively even across all segments, with Regular and Premium customers accounting for the largest share of orders. This highlights the significant contribution of loyal, repeat customers to the business. A notable portion of orders also comes from new customers, indicating effective customer acquisition strategies. However, nearly a quarter of orders are placed by customers who have since become inactive, suggesting that many customers engage for a short period before discontinuing their activity.
+- *The percentage of customers who placed an order compared to those who did not is as follows:*
+![IfOrdered](https://github.com/user-attachments/assets/9245b6c6-8edf-466a-ae8c-ec2f7f2578de)
+> Of the customers, 86.9% have placed at least one order, while 13.1% have not, reflecting strong overall engagement but highlighting an opportunity for reactivation efforts.
