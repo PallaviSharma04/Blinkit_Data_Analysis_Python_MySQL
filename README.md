@@ -14,7 +14,7 @@
 - [Recommendations](#business-recommendations)
 
 ## Project Overview
-Blinkit is an online grocery delivery service, and this project aims to analyze its sales data to extract meaningful insights. The dataset consists of various aspects such as customer details, orders, delivery performance, and product details. By leveraging data analytics, we identify trends, customer behavior, and potential improvements in delivery and sales performance.
+Blinkit is an online grocery delivery service, and this project aims to analyze its sales data to extract meaningful insights. The dataset consists of various aspects such as customer details, orders, delivery performance, and product details. The analysis involved data cleaning, exploratory data analysis(EDA) and deriving insights into customer behavior, potential improvements in delivery and sales performance and identifying trends. SQL was used for efficient querying and data extraction, while Python libraries such as Pandas, Matplotlib and Seaborn were utilized for in-depth analysis and visualization.
 
 ## Project Goals
 The primary objectives of this analysis are:
@@ -53,10 +53,19 @@ The dataset comprises six CSV files containing various details:
 ## Analytical Approach
 The analysis was conducted through the following steps:
 
-**1: Data Loading and Cleaning**
+**1: Data Acquisition**
+- Downloaded the Blinkit Sales Dataset using the Kaggle API.
+- Extracted the zip file and read the extracted csv files into Pandas DataFrames.
+
+**2: Data Cleaning and Wrangling**
+- Checked for missing, duplicate and inconsistent values.
 - Removed missing or duplicate entries.
-- Standardized date formats for consistency.
+- Standardized data types and formatted date/time columns.
 - Added necessary columns for comprehensive analysis.
+
+**3: SQL Integration for Data Retrieval**
+- Connected Python with MySQL using SQLAlchemy.
+- Loaded the cleaned Pandas DataFrames into MySQL tables for efficient storage and querying.
 
 **2: Exploratory Data Analysis (EDA)**
 Analyzed sales trends over time.
