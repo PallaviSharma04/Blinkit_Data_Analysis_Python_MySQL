@@ -38,7 +38,7 @@ The following tools were used for data analysis:
 - **Jupyter Notebook** (for exploratory analysis)
 
 ## Data Schema
-The dataset comprises six CSV files containing various details:
+The dataset comprises seven CSV files containing various details:
 - **Orders**: Contains details of customer orders, including order date, total amount, and delivery status.
 - **Order Items**: Lists the products included in each order along with quantity and pricing details.
 - **Products**: Provides product specific information such as category, brand, price, and margin percentage.
